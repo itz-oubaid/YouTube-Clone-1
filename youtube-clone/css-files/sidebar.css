@@ -4,8 +4,11 @@
     bottom: 0;
     top: 55px;
     background-color: white;
-    width: 72px;
+    width: 0;
     z-index: 200;
+}
+.sidebar.open{
+    width: 250px;
 }
 
 .sidebar-link{
@@ -28,4 +31,5 @@
 .sidebar-link div {
     font-family: Roboto, arial;
     font-size: 10px;
+
 }
